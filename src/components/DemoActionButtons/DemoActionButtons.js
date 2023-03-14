@@ -9,7 +9,7 @@ const items = [
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="/demo-website"
+        href=""
       >
         demo start page
       </a>
@@ -21,7 +21,7 @@ const items = [
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="/demo-website/#/page"
+        href="/#/page"
       >
         sample page
       </a>
@@ -33,7 +33,7 @@ const items = [
       <a
         target="_blank"
         rel="noopener noreferrer"
-        href="/demo-website/#/page/1"
+        href="/#/page/1"
       >
         sample page 1
       </a>
