@@ -22,11 +22,11 @@ const Home = function () {
             <Logo />
             <div className="spacer-double"></div>
             <HeadingPost text="DEMO COMPONENTS" />
-            <div className="spacer-double"></div>
+            <div className="spacer-single"></div>
             <div className="row">
               <DemoMenuHorizontal />
             </div>
-            <div className="spacer-double"></div>
+            <div className="spacer-single"></div>
             <div className="row gh-5">
               <div className="col-lg-6" data-aos="fade-up" data-aos-once="true">
                 <div className="p-4">
