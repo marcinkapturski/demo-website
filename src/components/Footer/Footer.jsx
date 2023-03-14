@@ -13,13 +13,13 @@ const Footer = () => {
             </div>
             <div className="col-md-6">
               <p className="footer-text">
-                This is as a playground for automation tests, code is available on this
+                This is as a playground for automation tests, here is code of this website
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://github.com/marcinkapturski/"
+                  href="https://github.com/marcinkapturski/demo-website"
                 >
-                  <b className="footer-link">GitHub profile</b>
+                  <b className="footer-link">GitHub</b>
                 </a>
               </p>
             </div>
