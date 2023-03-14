@@ -4,11 +4,11 @@ import { Menu } from "antd";
 
 const items = [
   {
-    label: <a href="/demo-website">Home page</a>,
+    label: <a href="">Home page</a>,
     key: "start",
   },
   {
-    label: <a href="/demo-website/#/page">Sample page</a>,
+    label: <a href="/#/page">Sample page</a>,
     key: "page",
   },
   {
@@ -21,11 +21,11 @@ const items = [
         label: "Group 1",
         children: [
           {
-            label: <a href="/demo-website/#/page/1">Page one</a>,
+            label: <a href="/#/page/1">Page one</a>,
             key: "setting:1",
           },
           {
-            label: <a href="/demo-website/#/page/2">Page two</a>,
+            label: <a href="/#/page/2">Page two</a>,
             key: "setting:2",
           },
         ],
