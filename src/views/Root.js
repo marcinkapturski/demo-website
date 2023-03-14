@@ -8,9 +8,10 @@ function Root() {
   <HashRouter>
       <GlobalStyles />
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/page" element={<Page />} />
-        <Route path="/page/:id" element={<Page />} />
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<Home />} />
+        {/* <Route path="/page" element={<Page />} />
+        <Route path="/page/:id" element={<Page />} /> */}
       </Routes>
     </HashRouter>
   );

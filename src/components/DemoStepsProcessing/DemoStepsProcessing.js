@@ -36,15 +36,15 @@ const DemoSteps = () => {
     backgroundColor: token.colorFillAlter,
     borderRadius: token.borderRadiusLG,
     border: `1px dashed ${token.colorBorder}`,
-    marginTop: 16,
+    margin: '20px',
   };
   return (
     <>
-      <Steps current={current} items={items} />
+      <Steps current={current} items={items} style={{ margin: "20px" }} />
       <div style={contentStyle}>{steps[current].content}</div>
       <div
         style={{
-          marginTop: 24,
+          margin: 20,
         }}
       >
         {current < steps.length - 1 && (
